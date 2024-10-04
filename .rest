@@ -2,3 +2,30 @@ GET http://localhost:3000/contacts
 
 
 
+### Get all contacts
+GET http://localhost:3002/api/contacts
+
+### Create a new contact
+POST http://localhost:3002/api/contacts
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john.doe@example.com",
+  "phone": "123-456-7890",
+  "address": "123 Main St"
+}
+
+### Update a contact
+PUT http://localhost:3002/api/contacts/66f4ee1dd3905976774f7fe3
+Content-Type: application/json
+
+{
+  "name": "John Doe Updated",
+  "email": "john.updated@example.com",
+  "phone": "321-654-0987",
+  "address": "456 Main St"
+}
+
+### Delete a contact
+DELETE http://localhost:3002/api/contacts/66f4ee62d3905976774f7fe5
