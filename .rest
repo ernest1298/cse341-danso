@@ -28,4 +28,4 @@ Content-Type: application/json
 }
 
 ### Delete a contact
-DELETE http://localhost:3002/api/contacts/66f4ee62d3905976774f7fe5
+DELETE http://localhost:3002/api/contacts/6700722a3644ea6ffdf6ed86
